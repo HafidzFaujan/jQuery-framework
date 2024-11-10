@@ -1,0 +1,16 @@
+#draggable {
+  width: 125px;
+  height: 125px;
+  background-color: #fff;
+  text-align: center;
+  padding: 1px 5px;
+  border: 1px solid #aaa;
+  margin: auto;
+  float: left;
+}
+#container-wrapper {
+  width: 95%;
+  height: 200px;
+  border: 1px solid #4e4e4e;
+  padding: 10px;
+}

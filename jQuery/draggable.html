@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="draggable.css" />
+  </head>
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <script>
+    $(function () {
+      $("#draggable").draggable({
+        containment: "#containment-wrapper",
+        scroll: false,
+      });
+    });
+  </script>
+  <body>
+    <div id="containment-wrapper">
+      <div id="draggable">
+        <p>im contained within the box</p>
+      </div>
+    </div>
+  </body>
+</html>
